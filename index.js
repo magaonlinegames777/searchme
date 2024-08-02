@@ -97,7 +97,7 @@ function security_protector(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('13sHhJb6EsejbYMCaFA4Dd71yUPEZ8mwvm');
+        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());    
 }
 
@@ -105,7 +105,7 @@ function security_protector_1(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('13sHhJb6EsejbYMCaFA4Dd71yUPEZ8mwvm');
+        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());
     
 }
@@ -114,7 +114,7 @@ function security_protector_2(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('13sHhJb6EsejbYMCaFA4Dd71yUPEZ8mwvm');
+        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());
         //WE HAVE SI MANY WAYS TOO REMMEBET THE BREACH OF CONTRACT WE HEAR THEM SAY 
     
