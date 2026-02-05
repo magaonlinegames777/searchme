@@ -23,9 +23,27 @@ $(document).ready(function(){
         },4000
     );
 
+
+    // Call once on page load
+    getBTCPrice();
     
             
 });
+
+// FEBRUARY 5 2026
+function BTC_RATE(){
+      $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd", 
+        function(data) {
+          $(".btcRate").text(data.bitcoin.usd);
+        }
+      );
+}
+
+    
+
+    // Refresh every 30 seconds
+    // setInterval(getBTCPrice, 30000);
+
 
 // MAY 6 2023
 function BTC_CHECKER_COUNTER(){
@@ -97,7 +115,7 @@ function security_protector(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
+        $('#btc_p').text('1Lf17qfxndge3Gb4ius4ybmCYcRNmu5zQL');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());    
 }
 
@@ -105,7 +123,7 @@ function security_protector_1(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
+        $('#btc_p').text('1Lf17qfxndge3Gb4ius4ybmCYcRNmu5zQL');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());
     
 }
@@ -114,7 +132,7 @@ function security_protector_2(){
    
         // Your code here
         $('#btc_p').text('');
-        $('#btc_p').text('1GxNczwnBk7FonMq4JwCewrebbzWZE56oE');
+        $('#btc_p').text('1Lf17qfxndge3Gb4ius4ybmCYcRNmu5zQL');
         // console.log('BTC_PROTECTOR_GOD: '+ $('#btc_p').text());
         //WE HAVE SI MANY WAYS TOO REMMEBET THE BREACH OF CONTRACT WE HEAR THEM SAY 
     
